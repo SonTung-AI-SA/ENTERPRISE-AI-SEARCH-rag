@@ -1,0 +1,15 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: api-gateway
+
+logging:
+  level:
+    root: INFO
+
+ai:
+  orchestrator:
+    base-url: http://ai-orchestrator:8000
+    timeout-ms: 2000

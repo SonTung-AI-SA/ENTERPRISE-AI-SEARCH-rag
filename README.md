@@ -14,3 +14,12 @@ Value:
 RAG
 Logging
 Cost limit
+
+
+enterprise-ai-search/
+├── infra/
+│ ├── docker-compose.yml
+│ └── init-db.sql
+├── api-gateway-java/
+├── ai-orchestrator-python/
+└── README.md
